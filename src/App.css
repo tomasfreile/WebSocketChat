@@ -39,49 +39,46 @@
 .chat-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align messages to the left */
+  align-items: flex-start; 
   border-radius: 5px;
   padding: 10px;
   width: 40%;
 }
 
-/* Style for the chat message container */
 .chat-message-outgoing {
-  align-self: flex-end; /* Align to the right */
-  background-color: #0084ff; /* Change the color for outgoing messages */
-  color: white; /* Text color for outgoing messages */
-  position: relative; /* Add relative positioning for timestamp placement */
+  align-self: flex-end; 
+  background-color: #0084ff;
+  color: white;
+  position: relative; 
   border-radius: 10px;
   margin: 5px;
   max-width: 45%;
 }
 
 .chat-message-incoming {
-  align-self: flex-start; /* Align to the left */
-  background-color: #44bb44; /* Change the color for incoming messages */
-  color: white; /* Text color for incoming messages */
-  position: relative; /* Add relative positioning for timestamp placement */
+  align-self: flex-start;
+  background-color: #44bb44; 
+  color: white; 
+  position: relative; 
   border-radius: 10px;
   margin: 5px;
   max-width: 45%;
 }
 
-/* Style for the chat message content */
 .chat-bubble-outgoing,
 .chat-bubble-incoming {
   padding: 10px;
   border-radius: 10px;
-  word-wrap: break-word; /* Wrap long messages */
-  position: relative; /* Add relative positioning for timestamp placement */
+  word-wrap: break-word; 
+  position: relative;
 }
 
-/* Style for the timestamp */
 .chat-time {
   position: absolute;
-  bottom: 2px; /* Adjust the vertical position */
-  right: 5px; /* Adjust the horizontal position */
-  font-size: 10px; /* Set the font size for the timestamp */
-  color: #ececec; /* Choose a color for the timestamp */
+  bottom: 2px;
+  right: 5px;
+  font-size: 10px; 
+  color: #ececec;
 }
 
 .chat-header {
@@ -103,7 +100,6 @@
   font-size: 17px;
 }
 
-/* Style for the chat input form */
 .form {
-  margin-top: 20px; /* Add some space between messages and the input form */
+  margin-top: 20px; 
 }
